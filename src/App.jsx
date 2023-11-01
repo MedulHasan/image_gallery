@@ -1,7 +1,12 @@
 import React from "react";
+import Container from "./components/Container";
 
 function App() {
-    return <div className="text-2xl text-red-300 font-bold">Hello World</div>;
+    return (
+        <div className="bg-catskill_White h-screen p-[20px]">
+            <Container />
+        </div>
+    );
 }
 
 export default App;
