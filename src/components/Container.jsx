@@ -17,6 +17,7 @@ function Container() {
             />
             <Gallery
                 data={data}
+                setData={setData}
                 selectedItem={selectedItem}
                 setSelectedItem={setSelectedItem}
             />
